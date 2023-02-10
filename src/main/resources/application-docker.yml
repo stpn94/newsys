@@ -1,0 +1,3 @@
+spring:
+  datasource:
+    url: jdbc:mysql://newsys_db/growup

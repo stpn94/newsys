@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class NewsysApplication {
 
     public static void main(String[] args) {
-        System.out.println("test commits11");
+        System.out.println("test commits12");
         SpringApplication.run(NewsysApplication.class, args);
     }
 

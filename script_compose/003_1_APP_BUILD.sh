@@ -3,4 +3,4 @@ cd ..
 pwd
 ls
 echo "권한 부여후 GRADLE_BUILD 시작"
-gradle clean build --exclude-task test
+gradlew clean build --exclude-task test

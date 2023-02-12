@@ -1,4 +1,4 @@
 . ./000_SET_ENV
 cd ..
-echo "권한 부여후 GRADLE_BUILD 시작"
+echo "GRADLE_BUILD START"
 ./gradlew clean build --exclude-task test

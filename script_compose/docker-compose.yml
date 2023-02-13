@@ -21,28 +21,11 @@ services:
       - newsys_net
     environment:
       - SPRING_PROFILES_ACTIVE=docker
-    links:
-      - db:newsys_db
     entrypoint:
       - "java"
       - "-jar"
       - "-Duser.timezone=Asia/Seoul"
       - "/app.jar"
-    depends_on:
-      - db
-  db:
-    image: mysql
-    networks:
-      - newsys_net
-    environment:
-      - MYSQL_DATABASE=newsys_schema
-      - MYSQL_USER=user01
-      - MYSQL_PASSWORD=user01
-      - MYSQL_ROOT_PASSWORD=password
-    volumes:
-      - /build/DB/mysql:/var/lib/mysql
-    ports:
-      - "3306:3306"
 
 networks:
   newsys_net:

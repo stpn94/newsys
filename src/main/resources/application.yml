@@ -5,7 +5,7 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://112.150.97.37:3306/newsys_db
+    url: jdbc:mysql://112.150.97.37:3306/newsys-db
     username: root
     password: gksrnr1emd
 

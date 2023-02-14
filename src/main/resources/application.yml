@@ -15,4 +15,4 @@ spring:
 logging:
   level:
     root: info
-    com.growup: debug
+    com.growup.newsys: debug
